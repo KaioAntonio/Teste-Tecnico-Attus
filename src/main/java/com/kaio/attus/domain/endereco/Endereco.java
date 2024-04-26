@@ -39,8 +39,10 @@ public class Endereco {
     @Column(name = "ESTADO")
     private String estado;
 
-    @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
+    @Column(name = "FL_PRINCIPAL_ENDERECO")
+    private Boolean principal;
+
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "ID_PESSOA", referencedColumnName = "ID_PESSOA")
     private Pessoa pessoa;
 

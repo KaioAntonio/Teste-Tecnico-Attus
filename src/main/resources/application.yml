@@ -4,8 +4,10 @@ spring:
     username: root
     password: 1234
   jpa:
+    hibernate:
+      ddl-auto: update
     properties:
       hibernate:
-        ddl-auto: update
         dialect: org.hibernate.dialect.PostgreSQLDialect
-      show-sql: true
+        format_sql: true
+    show-sql: true
