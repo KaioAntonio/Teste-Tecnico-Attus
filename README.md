@@ -1,6 +1,30 @@
 # Teste-Tecnico-Attus
 
+## 💛 Teste 01 :
+### ✅ Situação Problema:
 
+1 - Na daily, seria honesto e direto. Diria: "Percebi que estamos atrás do cronograma para a nova funcionalidade. Após as últimas alterações, ainda temos testes pendentes que precisam de correções. Estou recalculando o tempo necessário para finalizar tudo. Proponho estender o prazo por "tantos" dias adicionais para garantir a entrega com qualidade. Durante esse período, priorizarei os testes e as correções necessárias e manterei a equipe atualizada sobre o progresso diariamente."
+
+2 - Discutiria a situação com meu líder imediato explicando o status atual da implementação complexa em que estou envolvido e como isso se alinha com os prazos acordados. Porém, levaria em consideração a emergia da nova funcionalidade e segueria na implementação dela.
+
+3 - 
+
+Seguiria esses passos:
+
+1. Avaliar a causa do problema: vou tentar analisar, entender o problema e por que aconteceu.
+2. Correção: Priorizar a correção dos bugs, trabalhando intensamente com a equipe de QA para garantir que a solução seja efetiva.
+3. Testar: Realizar uma bateria de testes para garantir que não haja mais falhas.
+4. Deploy: Implementar a correção e monitorar o sistema para qualquer sinal de novos problemas ou falhas não detectadas inicialmente.
+5. Revisar o problema: Após resolvar esse problema, eu iria revisar o processo que levou aos erros e implementar medidas para evitar reincidências.
+
+4 - 
+
+Faria algumas considerações:
+
+1. Avaliar o problema que gerou o atraso.
+2. Comunicaria antes sobre o atraso e porque.
+3. Pediria ajuda para conseguir mitigar o atraso.
+4. Manteria atualização frequente com todos os envolvidos para dar seguimento na implementação
 
 ## 💛 Teste 02 :
 ### Redação
