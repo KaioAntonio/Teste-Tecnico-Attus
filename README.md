@@ -41,3 +41,90 @@ Adicionalmente, o processo de seleção em si muitas vezes não está equipado p
 
 Por fim, a diversidade no local de trabalho, especialmente em tecnologia, é uma questão que ainda precisa de muita atenção. A inclusão de mulheres, minorias étnicas e outros grupos subrepresentados não só contribui para um ambiente de trabalho mais rico e criativo, mas também abre caminhos para um pool de talentos mais vasto e variado.
 
+## 💛 Teste 03 :
+
+### API:
+
+1 - Para conseguir rodar o banco de dados, necessário docker.
+
+O ambiente já possui o docker-compose.yml só utilizar o comando 
+
+`docker-compose up` dentro da pasta Teste-Tecnico-Attus
+
+#### Documentação da API
+
+- **Consultar Pessoa**
+
+```http
+  GET /pessoa/consultarPessoas
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `pagina` | `Integer` | **Obrigatório**. Paginação da API |
+| `elementoPorPagina` | `Integer` | **Obrigatório**. Quantidade de elementos por página |
+
+- **Criar Pessoa**
+
+```http
+  POST /pessoa/criarPessoa
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `nomeCompleto` | `String` | **Obrigatório**. Nome Completo da Pessoa |
+| `dataNascimento` | `LocalDate` | **Obrigatório**. Data de Nascimento da Pessoa |
+
+- **Editar Pessoa**
+
+```http
+  PUT /pessoa/editarPessoa
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `idPessoa` | `Integer` | **Obrigatório**. Id da Pessoa |
+| `nomeCompleto` | `String` | **Obrigatório**. Nome Completo da Pessoa |
+| `dataNascimento` | `LocalDate` | **Obrigatório**. Data de Nascimento da Pessoa |
+
+- **Criar Endereço**
+
+```http
+  POST /endereco/criarEndereco
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `logradouro` | `String` | **Obrigatório**. Logradouro |
+| `cep` | `String` | **Obrigatório**. CEP |
+| `numero` | `Integer` | **Obrigatório**. Número da casa |
+| `cidade` | `String` | **Obrigatório**. Cidade |
+| `estado` | `String` | **Obrigatório**. Estado |
+| `principal` | `Boolean` | **Obrigatório**. Endereço principal |
+| `idPessoa` | `Integer` | **Obrigatório**. Id da pessoa relacionada |
+
+- **Editar Endereço**
+
+```http
+  PUT /endereco/editarEndereco
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `logradouro` | `String` | **Obrigatório**. Logradouro |
+| `cep` | `String` | **Obrigatório**. CEP |
+| `numero` | `Integer` | **Obrigatório**. Número da casa |
+| `cidade` | `String` | **Obrigatório**. Cidade |
+| `estado` | `String` | **Obrigatório**. Estado |
+| `principal` | `Boolean` | **Obrigatório**. Endereço principal |
+| `idPessoa` | `Integer` | **Obrigatório**. Id da pessoa relacionada |
+| `idEndereco` | `Integer` | **Obrigatório**. Id do endereço para edição |
+
+#### Testes Unitários:
+
+- Cobertura de 100% da services
+
+![image](https://github.com/KaioAntonio/Teste-Tecnico-Attus/assets/75454785/93bcdee5-7e3b-4179-b7ce-18f02b3ab15e)
+
+
+
