@@ -1,6 +1,5 @@
 package com.kaio.attus.domain.endereco;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.kaio.attus.domain.pessoa.Pessoa;
 import lombok.Data;
 
@@ -28,7 +27,7 @@ public class Endereco {
     private String logradouro;
 
     @Column(name = "CEP")
-    private String CEP;
+    private String cep;
 
     @Column(name = "NUMERO")
     private Integer numero;

@@ -5,8 +5,6 @@ import com.kaio.attus.domain.endereco.EnderecoRequestDTO;
 import com.kaio.attus.domain.endereco.EnderecoResponseDTO;
 import com.kaio.attus.domain.endereco.EnderecoService;
 import com.kaio.attus.domain.paginacao.PageDTO;
-import com.kaio.attus.domain.pessoa.PessoaRequestDTO;
-import com.kaio.attus.domain.pessoa.PessoaResposeDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
